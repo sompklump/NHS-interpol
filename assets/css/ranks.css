@@ -1,0 +1,53 @@
+/* Declaring department colors */
+.department-trial {
+  background-color: #f0c460;
+}
+.department-normal {
+  background-color: #8ad493;
+}
+.department-senior {
+  background-color: #6bb1e3;
+}
+.department-nc{
+  background-color: #d69200;
+}
+.department-deputy {
+  background-color: black;
+  color: #5c91d1;
+}
+.department-chief {
+  background-color: black;
+  color: #c43939;
+}
+.department-dcmo {
+  background-color: #416796;
+}
+.department-cmo {
+  background-color: #d14545;
+}
+
+/* Rank Colors */
+.rank-stu {
+  background-color: #76A5AF;
+}
+.rank-fa {
+  background-color: #6D9EEB;
+}
+.rank-par {
+  background-color: #3C78D8;
+}
+.rank-doc{
+  background-color: #0B5394;
+}
+.rank-gp{
+  background-color: #073763;
+}
+.rank-sur{
+  background-color: #1C4587;
+}
+.rank-cst{
+  background-color: #134F5C;
+}
+.rank-cmo{
+  background-color: #0C343D;
+}

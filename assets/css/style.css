@@ -1,0 +1,97 @@
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #858585;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #424242; 
+}
+
+.scroller {
+  overflow-y: scroll;
+  scrollbar-color: #0A4C95 #C2D2E4;
+}
+
+body {
+  background-color: #2f3742;
+}
+table, th, td {
+  table-layout: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-spacing: 0 15px;
+  padding:0 5px;
+  white-space: nowrap;
+}
+table .td-notes {
+  white-space: normal;
+}
+.noselect {
+  pointer-events: none;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none;
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none;
+  user-select: none; 
+}
+a{
+  color: darkgrey;
+  text-decoration: none;
+}
+.centerDiv {
+  text-align: center;
+  width:450px;
+  height:350px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -100;
+  margin-left: -225px;
+  background-color: transparent;
+}
+form{
+  width: 25%;
+  margin-left: 4px;
+}
+.header {
+  width: 100%;
+  border-radius: 2px;
+  border-color: #3c4b61;
+  background-color: #4d6587;
+  color: white;
+}
+
+.nhsColor-danger {
+  background-color: #cc4343;
+}
+.nhsColor-warning {
+  background-color: #e8ad3f;
+}
+.nhsColor-info {
+  background-color: #264678;
+}
+.nhsColor-success {
+  background-color: #449e52;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.constructor {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+}
