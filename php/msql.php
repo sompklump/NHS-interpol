@@ -1,9 +1,9 @@
 <?php
 //Declare credentials
 $servername = "localhost";
-$username = "admin";
-$password = "cuba2001";
-$db = "NHS_INT";
+$username = "";
+$password = "";
+$db = "";
 
 //Create connection
 $conn = mysqli_connect($servername, $username, $password, $db);
